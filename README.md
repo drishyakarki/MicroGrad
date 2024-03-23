@@ -46,7 +46,10 @@ print(f'{b.grad:.4f}') # 117.3345
 
 ## To run unit tests
 
-Clone the repo. Then, you will have to install PyTorch and Numpy library.You can directly run ```pip install numpy torch```. 
+Clone the repo. Then, you will have to install PyTorch and Numpy library.You can directly run 
+```bash
+pip install numpy torch
+``` 
 
 Then simply run: 
 
