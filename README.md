@@ -10,7 +10,7 @@ The core of the autograd engine is the Value class, which represents scalar valu
 
 To demonstrate the functionality of the autograd engine, the repository includes test script [run_tests.py](run_tests.py) that compare the gradients computed by Micrograd with those computed by PyTorch, a widely used deep learning framework. These tests validate the correctness of the gradients computed by Micrograd and serve as educational examples for understanding automatic differentiation.
 
-Additionally, the repository includes a simple neural network module (nn.py) built on top of Micrograd. The neural network module implements a multi-layer perceptron (MLP) architecture, consisting of layers of neurons with trainable weights and biases. Users can create and train neural networks using the provided module, gaining hands-on experience with automatic differentiation and neural network training.
+Additionally, the repository includes a simple neural network module [nn.py](nn.py) built on top of Micrograd. The neural network module implements a multi-layer perceptron (MLP) architecture, consisting of layers of neurons with trainable weights and biases. Users can create and train neural networks using the provided module, gaining hands-on experience with automatic differentiation and neural network training.
 
 ## Example Usage
 
